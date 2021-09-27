@@ -1,0 +1,2745 @@
+:root{
+    --green:#27AE60 !important;
+}
+
+.flex {
+    display: flex;
+    flex-direction: row;
+    /*Tudo em Linha*/
+    flex-wrap: wrap;
+    /*Quebra de Linha*/
+}
+
+body::-webkit-scrollbar {
+    width: 5px;
+}
+
+body::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 2px #ccc;
+    border-radius: 50px;
+}
+
+body::-webkit-scrollbar-thumb {
+    background: #b3b1b1;
+}
+
+.container {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1920px;
+}
+
+.w10 {
+    width: 10%;
+    padding: 0 0%;
+}
+.w35{
+    width: 35%;
+}
+.w15 {
+    width: 15%;
+    padding: 0 0%;
+}
+
+.w20 {
+    width: 20%;
+    padding: 0 0%;
+}
+
+.w30 {
+    width: 30%;
+    padding: 0 0%;
+}
+
+.w40 {
+    width: 40%;
+    padding: 0 0%;
+}
+
+.w60 {
+    width: 60%;
+    padding: 0 0%;
+}
+
+.w50 {
+    width: 50%;
+    padding: 0 0%;
+}
+
+.w75 {
+    width: 75%;
+    padding: 0 0%;
+}
+
+.w80 {
+    width: 80%;
+    padding: 0 0%;
+}
+
+.w70 {
+    width: 70%;
+    padding: 0 0%;
+}
+
+.w25 {
+    width: 25%;
+    padding: 0 0%;
+}
+
+.w100 {
+    width: 100%;
+    padding: 0 0%;
+}
+
+.hlw.chartjs-render-monitor{
+    width: 100% !important;
+   
+}
+
+.hlw{
+    width:300px; 
+    margin-top:-50px; 
+    
+    font-size: 10px;
+    padding:0px;
+
+}
+.hlw span{
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 38px;
+    letter-spacing: 0.02em;
+    position:absolute; 
+    margin-left:-175px;  
+    margin-top:55px;
+    z-index:9;
+    color:#27AE60;
+}
+.slw{
+    margin-top:15px;
+    overflow-x: hidden;
+}
+.slw span{
+    position:absolute;
+     font-size: 32.8px;
+     margin-top:35px;
+     margin-left:-22px;
+      font-weight: 900;
+    line-height: 38px;
+    letter-spacing: 0.02em;
+    color:#BDBDBD;
+}
+.slw2,.slw3{
+    margin-top: 15px;
+    overflow-x: hidden;
+}
+.slw2 span{
+    position:absolute;
+     font-size: 32.8px;
+     margin-top:35px;
+     margin-left:-22px;
+      font-weight: 900;
+    line-height: 38px;
+    letter-spacing: 0.02em;
+    color:#EB5757;
+}
+.slw3 span{
+    position:absolute;
+     font-size: 32.8px;
+     margin-top:35px;
+     margin-left:-22px;
+      font-weight: 900;
+    line-height: 38px;
+    letter-spacing: 0.02em;
+    color:#66be87;
+}
+canvas {
+        -moz-user-select: none;
+        -webkit-user-select: none;
+        -ms-user-select: none;
+    }
+a{
+    text-decoration: none;
+}
+    .fac .topo{
+    width: 100%;
+    height:150px;
+    padding:0px 100px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #009237;
+    }
+    * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+.fac .topo .leftS{
+    align-items: center;
+    height: 150px;
+
+}
+.fac .topo .leftS h1{
+    margin-left: 68px;
+    text-transform: uppercase;
+    color:#BECC31;
+    font-size: 40px;
+    line-height: 47px;
+    letter-spacing: 0.02em;
+
+    }
+    .fac .topo .leftS .t1{
+        margin-left:73px;
+    }
+    .fac .topo .leftS h2{
+        font-weight: bold;
+        font-size: 32px;
+        line-height: 37px;
+        letter-spacing: 0.02em;
+        color: #FFFFFF;
+    }
+    .fac .topo .leftS p {
+
+        font-size: 16px;
+        line-height: 19px;
+        letter-spacing: 0.02em;
+        color: #FFFFFF;
+        margin-top:10px;
+    }
+    .fac .topo a.suporte{
+        width: 168px;
+        height: 38px;
+        display: block;
+        background-color: #BECC31;
+        border-radius: 16px;
+        text-align: center;
+        padding: 10px;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 19px;
+        letter-spacing: 0.02em;
+        color:white;
+        text-decoration: none;
+    }
+    .fac .perg .quest{
+        margin-top:57px;
+        justify-content: space-between;
+    }
+    .fac .perg .quest .w50{
+        width: 480px;
+    }
+    .fac .perg .quest .t3{
+        margin-top:51px;
+    }
+    .fac .perg .container{
+        max-width: 1130px;
+    }
+    .fac .perg .quest h1{
+        font-size: 32px;
+        line-height: 37px;
+        letter-spacing: 0.02em;
+        color: #33A85F;
+    }
+    .fac .perg .quest h1 img{
+        margin-right:13px;
+    }
+    .fac .perg .quest p{
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.02em;
+    margin-left: 33px;
+    margin-top: 10px;
+    color: #001D0B;
+    opacity: 0.6;
+}
+.fac .perg .img{
+    
+    text-align: right;
+    max-width: 1276px;
+    margin: auto;
+    margin-top: 123px;
+
+}
+.fac .perg .img img.up{
+margin-top: -110px;
+}
+header.private .greenBar{
+    position:absolute; 
+    z-index:999;
+    height: 8px;
+    width: 100%;
+    background-color:#009B3A;
+    margin: auto;
+    
+    display:none;
+
+}
+.select_wrap {
+    width: 158px;
+    margin: 15px auto;
+    height: 32px;
+    margin-top: 20px;
+    font: 'Roboto', sans-serif;
+    position: relative;
+    user-select: none;
+    list-style-type: none;
+}
+
+.select_wrap .default_option li {
+    width: 158px;
+    height: 32px;
+    margin-top: 15px;
+    text-align: center;
+    padding-top: 7px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 19px;
+    background-color: #009B3A;
+    font-weight: 500;
+    color: white;
+    border-radius: 15px;
+}
+
+.select_wrap .default_option {
+    background: #fff;
+    border-radius: 5px;
+    list-style-type: none;
+    position: relative;
+    cursor: pointer;
+}
+
+.select_wrap .default_option:before {
+    content: "";
+    position: absolute;
+    top: 10px;
+    right: 30px;
+    width: 6px;
+    height: 6px;
+    border: 2px solid;
+    border-color: transparent transparent white white;
+    transform: rotate(-45deg);
+}
+
+.ajax_load {
+    display: none;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #009B3A;
+    z-index: 999999999999999999999999999999999999;
+}
+.sk-flow {
+  width: calc(40px * 1.3);
+  height: calc(40px * 1.3);
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  z-index: 9999999999999999999999999999999999999;
+  top:49%;
+  right:49%;
+}
+
+
+.sk-flow-dot {
+
+  width: 25%;
+  height: 25%;
+  background-color: white;
+  border-radius: 50%;
+  animation: sk-flow 1.4s cubic-bezier(0.455, 0.03, 0.515, 0.955) 0s infinite both;
+}
+
+.sk-flow-dot:nth-child(1) { animation-delay: -0.30s; }
+.sk-flow-dot:nth-child(2) { animation-delay: -0.15s; }
+
+@keyframes sk-flow {
+  0%, 80%, 100% {
+    transform: scale(0.3); }
+  40% {
+    transform: scale(1); 
+  }
+}
+.select_wrap .select_ul {
+    position: absolute;
+    text-align: center;
+    z-index: 9999;
+    top: 52px;
+    left: 0;
+    width: 100%;
+    background: #009B3A;
+    border-radius: 15px;
+    list-style-type: none;
+    display: none;
+    border-bottom: 1px solid #008230;
+}
+.trigger-alert{
+    margin-bottom: 20px;
+}
+.select_wrap .select_ul li {
+    padding: 7px 32px;
+    height: 32px;
+    border-radius: 15px;
+    color: white;
+    cursor: pointer;
+}
+
+.select_wrap .select_ul li:first-child:hover {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.select_wrap .select_ul li:last-child:hover {
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.select_wrap .select_ul li:hover {
+    background: #008230;
+}
+
+.select_wrap .option {
+    display: flex;
+    align-items: center;
+}
+
+.select_wrap .option .icon {
+    background: url("food_items.png") no-repeat 0 0;
+    width: 32px;
+    height: 32px;
+    margin-right: 15px;
+}
+
+.select_wrap .option.pizza .icon {
+    background-position: 0 0;
+}
+
+.select_wrap .option.burger .icon {
+    background-position: 0 -35px;
+}
+
+.select_wrap .option.ice .icon {
+    background-position: 0 -72px;
+}
+
+.select_wrap .option.fries .icon {
+    background-position: 0 -111px;
+    width: 25px;
+}
+
+.select_wrap.active .select_ul {
+    display: block;
+}
+
+.select_wrap.active .default_option:before {
+    top: 14px;
+    transform: rotate(-225deg);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+html, body {
+    height: 100%;
+    background-color: #f2f2f2;
+
+}
+
+body {
+    overflow-x: hidden;
+    max-width: 1920px;
+    margin: auto;
+}
+
+.overlay {
+    height: 100%;
+    width: 0;
+    border-radius: 15px;
+    position: fixed;
+    z-index: 9999999;
+    background-color: rgba(33, 44, 34, 0.6);
+    overflow-x: hidden;
+    left: 0;
+    top: 0;
+}
+
+.overlay .cadPessoa {
+    padding: 66px 95px 47px 95px;
+    width: 550px;
+    height: auto;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 6px rgba(179, 179, 179, 0.35);
+    border-radius: 15px;
+    position: relative;
+    z-index: 99999;
+    margin: auto;
+    top: 10%;
+}
+
+.overlay .cadPessoa #end {
+    display: none;
+}
+
+.overlay .cadPessoa #doc {
+    display: none;
+}
+
+.overlay .cadPessoa #obs {
+    display: none;
+}
+
+.overlay .cadPessoa #obs p {
+    margin-bottom: 12px;
+}
+
+.overlay .cadPessoa h1 {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: 0.02em;
+    color: #009237;
+    margin-bottom: 26px;
+}
+
+.overlay .cadPessoa p {
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #707070;
+}
+
+.overlay .cadPessoa input {
+    margin-top: 12px;
+    width: 360px;
+    height: 40px;
+    border: 1px solid #009B3A;
+    border-radius: 15px;
+    padding-left: 24px;
+    outline: none;
+    margin-bottom: 20px;
+}
+
+.overlay .cadPessoa textarea {
+    margin-top: 12px 0px 24px 0px;
+    width: 360px;
+    max-width: 360px;
+    min-width: 360px;
+    height: 200px;
+    border: 1px solid #009B3A;
+    border-radius: 15px;
+    padding: 10px 0px 0px 24px;
+    outline: none;
+}
+
+.overlay .cadPessoa .doc {
+    justify-content: space-between;
+}
+
+.overlay .cadPessoa .doc a {
+    margin-top: 23px;
+    color: #009B3A;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    cursor: pointer;
+}
+
+.overlay .cadPessoa .send {
+    justify-content: space-between;
+}
+
+.overlay .cadPessoa .send a {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #707070;
+    text-decoration: none;
+    margin-top: 45px;
+}
+
+.overlay .cadPessoa .send button {
+    width: 138.67px;
+    height: 32px;
+    background-color: #009B3A;
+    margin-top: 37px;
+    outline: none;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    text-align: center;
+}
+
+.overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 40px;
+    text-decoration: none;
+    color: #009B3A;
+}
+
+header.login {
+    background: linear-gradient(#fcfcfc 60%, #009b3a 40%);
+    height: auto;
+    padding-bottom: 250px;
+}
+
+header.login .in {
+    justify-content: space-between;
+    padding: 56px 265px;
+    background-color: white;
+}
+
+header.login .in ul.menu {
+    justify-content: space-between;
+    text-decoration: none;
+    list-style: none;
+    cursor: pointer;
+}
+
+header.login .in ul.menu img.br {
+    margin-top: -5px;
+    margin-right: 10px;
+    width: 26px;
+}
+
+header.login .in ul.menu li.ta h2 {
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 1.19;
+    color: #009b3a;
+    cursor: pointer;
+}
+
+header.login .in ul.menu li.ta h2 img {
+    margin-left: 10px;
+}
+
+header.login .in ul.menu ul {
+    height: 0;
+    opacity: 0;
+    position: absolute;
+    z-index: 1;
+    border-radius: 30px;
+    margin-left: -25px;
+    width: 190px;
+}
+
+header.login .in ul.menu ul li {
+    text-align: left;
+    padding-top: 50px;
+    margin-left: 25px;
+    list-style: none;
+    display: none;
+}
+
+header.login .in ul.menu ul li a {
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 1.19;
+    color: #707070;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+header.login .in ul.menu ul:after {
+    content: "";
+    width: 0;
+    height: 0;
+    position: absolute;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 15px solid white;
+    top: 0px;
+}
+
+header.login .in ul.menu:hover img.arrow {
+    position: relative;
+    transform: rotate(180deg);
+    transition: 1s;
+    z-index: 9999;
+}
+
+header.login .in ul.menu li:hover ul, header.login .in .menu li.hover ul {
+    opacity: 1;
+    transition: 0.5s;
+    height: 30px;
+}
+
+header.login .in ul.menu li:hover ul li, header.login .in .menu li.hover ul li {
+    display: list-item;
+}
+
+header.login .in h1 {
+    margin-left: -50px;
+    text-align: left;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 1.21;
+    color: #009b3a;
+}
+
+header.login .gray2 {
+    height: 50vh;
+    background-color: #fcfcfc;
+}
+
+header.login .green2 {
+    height: 50vh;
+    background-color: #009b3a;
+}
+
+header.login .gray {
+    height: 45vh;
+    background-color: #fcfcfc;
+}
+
+header.login .green {
+    height: 45vh;
+    background-color: #009b3a;
+}
+
+header.login .form2 {
+    margin: auto;
+    margin-top: 18vh;
+    width: 761px;
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 0 20px 60px 0 rgba(0, 0, 0, 0.16);
+    background-color: #ffffff;
+    padding: 0px 26px 40px 26px;
+}
+
+header.login .form2 .logo {
+    text-align: center;
+}
+
+header.login .form2 .logo img {
+    margin-top: -100px;
+}
+
+header.login .form2 h1 {
+    margin-top: -56px;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1.2;
+    text-align: left;
+    color: #009b3a;
+}
+
+header.login .form2 .request {
+    margin-top: 60px;
+}
+
+header.login .form2 form {
+    margin: auto;
+    text-align: center;
+}
+
+header.login .form2 form input[type=text], header.login .form2 form input[type=password], header.login .form2 form input[type=email], header.login .form2 form input[type=tel] {
+    text-align: center;
+    margin: auto;
+    margin-bottom: 40px;
+    width: 60%;
+    border: none;
+    border-bottom: 1px solid #b3b1b1;
+    text-decoration: none;
+    outline: none;
+    padding: 10px 10px 10px 15px;
+}
+
+header.login .form2 form input[type=text]:focus, header.login .form2 form input[type=password]:focus, header.login .form2 form input[type=email]:focus, header.login .form2 form input[type=tel]:focus {
+    border-bottom: 1px solid #009b3a;
+}
+
+header.login .form2 form input[type=text]:focus + label, header.login .form2 form input[type=password]:focus + label, header.login .form2 form input[type=email]:focus + label, header.login .form2 form input[type=tel]:focus + label {
+    margin-top: -15px;
+    transition: 0.5s;
+}
+
+header.login .form2 form input:not(:placeholder-shown) + label {
+    margin-top: -15px;
+    transition: 0.5s;
+}
+
+header.login .form2 form input[type=text]::placeholder, header.login .form2 form input[type=password]::placeholder, header.login .form2 form input[type=email]::placeholder, header.login .form2 form input[type=tel]::placeholder {
+    color: transparent;
+}
+
+header.login .form2 form input[type=text]::placeholder + label, header.login .form2 form input[type=password]::placeholder + label, header.login .form2 form input[type=email]::placeholder + label, header.login .form2 form input[type=tel]::placeholder + label {
+    margin-top: -15px;
+    transition: 0.5s;
+}
+
+header.login .form2 form label {
+    position: absolute;
+    z-index: 99;
+    margin-left: -255px;
+}
+
+header.login .form2 form label.df {
+    position: absolute;
+    z-index: 99;
+    margin-left: -240px;
+}
+
+header.login .form2 form label.ot {
+    margin-left: -250px;
+}
+
+header.login .form2 form label.t1 {
+    margin-left: -280px;
+}
+
+header.login .form2 form button {
+    display: block;
+    margin: auto;
+    border-radius: 8px;
+    border: solid 1px #009b3a;
+    width: 221px;
+    height: 38px;
+    outline: none;
+    text-decoration: none;
+    background-color: white;
+    font-weight: 700;
+    color: #009b3a;
+    font-size: 16px;
+    line-height: 1.19;
+    cursor: pointer;
+}
+
+header.login .form2 form button:hover {
+    background-color: #009b3a;
+    color: white;
+    transition: 0.5s;
+}
+
+header.login .form2 p {
+    margin-top: 29px;
+    text-align: center;
+    opacity: 0.4;
+    font-size: 14px;
+    line-height: 1.21;
+    color: #707070;
+}
+
+header.login .form2 a {
+    display: block;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 1.17;
+    color: #009b3a;
+}
+
+header.login .form {
+    margin: auto;
+    margin-top: 18vh;
+    width: 761px;
+    min-height: 417px;
+    border-radius: 15px;
+    box-shadow: 0 20px 60px 0 rgba(0, 0, 0, 0.16);
+    background-color: #ffffff;
+    padding: 0 26px 20px 26px;
+}
+
+header.login .form .logo {
+    text-align: center;
+}
+
+header.login .form .logo img {
+    margin-top: -100px;
+}
+
+header.login .form h1 {
+    margin-top: -56px;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1.2;
+    text-align: left;
+    color: #009b3a;
+}
+
+header.login .form .request {
+    margin-top: 60px;
+}
+
+header.login .form form {
+    margin: auto;
+    text-align: center;
+}
+
+header.login .form form input[type=email], header.login .form form input[type=password] {
+    text-align: center;
+    margin: auto;
+    margin-bottom: 40px;
+    width: 60%;
+    font-size: 14px;
+    padding-left: 15px;
+    border: none;
+    border-bottom: 1px solid #b3b1b1;
+    text-decoration: none;
+    outline: none;
+    padding: 10px;
+}
+
+header.login .form form input[type=email]:focus, header.login .form form input[type=password]:focus {
+    border-bottom: 1px solid #009b3a;
+}
+
+header.login .form form input[type=email]:focus + label, header.login .form form input[type=password]:focus + label {
+    margin-top: -15px;
+    transition: 0.5s;
+}
+
+header.login .form form input:not(:placeholder-shown) + label {
+    margin-top: -15px;
+    transition: 0.5s;
+}
+
+header.login .form form input[type=email]::placeholder, header.login .form form input[type=password]::placeholder {
+    color: transparent;
+}
+
+header.login .form form input[type=email]::placeholder + label, header.login .form form input[type=password]::placeholder + label {
+    margin-top: -15px;
+    transition: 0.5s;
+}
+
+header.login .form form label {
+    position: absolute;
+    text-align: center;
+    z-index: 99;
+    margin-left: -235px;
+}
+
+header.login .form form label.ot {
+    margin-left: -235px;
+}
+header.login .form form label.ott {
+    margin-left: -245px;
+}
+
+header.login .form form label.t1 {
+    margin-left: -13%;
+}
+
+header.login .form form button {
+    display: block;
+    margin: auto;
+    border-radius: 8px;
+    border: solid 1px #009b3a;
+    font-weight: 700;
+    width: 221px;
+    height: 38px;
+    outline: none;
+    text-decoration: none;
+    background-color: white;
+    color: #009b3a;
+    font-size: 16px;
+    line-height: 1.19;
+    cursor: pointer;
+}
+
+header.login .form form button:hover {
+    background-color: #009b3a;
+    color: white;
+    transition: 0.5s;
+}
+
+header.login .form p {
+    margin-top: 29px;
+    text-align: center;
+    opacity: 0.4;
+    font-size: 14px;
+    line-height: 1.21;
+    color: #707070;
+}
+
+header.login .form a {
+    display: block;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 1.17;
+    color: #009b3a;
+}
+
+header.login div#msg-sucesso {
+    width: 420px;
+    margin: auto;
+    padding: 10px;
+    background-color: rgba(250, 128, 114, 0.3);
+    border: 1px solid brown;
+}
+
+header.login #msg-erro {
+    width: 420px;
+    margin: 10px auto;
+    padding: 10px;
+    background-color: rgba(250, 128, 114, 0.3);
+    border: 1px solid brown;
+}
+
+.bgreen {
+    width: 100%;
+    background-color: #009b3a;
+    height: 8px;
+    position: absolute;
+    display: none;
+}
+
+.input-sm {
+    padding: 7px !important;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+}
+
+#table{
+    border-radius: 8px;
+}
+
+header.private {
+    background-color: #f2f2f2;
+    padding: 30px 100px 30px 100px;
+    max-width: 100%;
+    overflow:hidden;
+}
+
+/*HR DA PAGINA PDF*/
+    .hr{ 
+  width: 80%;
+ 
+  opacity: 0.5;
+  border: solid 0.5px #707070;
+  margin: auto;
+  margin-top:27.5px;
+    }
+    .hr2{
+  width: 100%;
+  opacity: 0.3;
+  border: solid 1px #005e0d;
+  margin: auto;
+  margin-top:10px;
+    }
+header.private .green {
+    width: 245px;
+    height: 936px;
+    margin-top: -10px;
+    background-color: #009b3a;
+    border-radius: 15px;
+    position: absolute;
+}
+
+header.private .green .ipt {
+    justify-content: space-between;
+    padding-left: 20px;
+}
+
+header.private .green .ipt img.logo {
+    margin-right: 10px;
+    margin-top: 31px;
+    margin-bottom: 20px;
+}
+
+header.private .green .ipt img.menu {
+    margin-left: 7px;
+    margin-top: 10px;
+    mix-blend-mode: multiply;
+}
+
+header.private .green .ip img {
+    margin-top: 2px;
+    margin-left: 30px;
+    mix-blend-mode: multiply;
+}
+
+header.private .green .ip img.st {
+    margin-top: 2px;
+}
+
+header.private .green .ip img.stt1 {
+    margin-top: 2px;
+}
+
+header.private .green .ip img.stt {
+    margin-top: 2px;
+    mix-blend-mode: normal;
+}
+
+header.private .green a {
+    margin-top: 21px;
+    margin-left: 43px;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    margin-bottom: 19px;
+}
+
+header.private .green a:hover {
+    color: #becc31;
+}
+
+header.private .green .hr {
+    width: 100%;
+    mix-blend-mode: multiply;
+    border: 0.5px solid rgba(0, 155, 58, 0.3);
+}
+
+header.private .green .space {
+    width: 100%;
+    margin-top: 55px;
+    mix-blend-mode: multiply;
+    border: 0.5px solid rgba(0, 155, 58, 0.3);
+}
+
+header.private .painel {
+    border-bottom: 1px solid #e0e0e0;
+    margin-left: 286px;
+    padding-bottom: 18px;
+    padding-top: 25px;
+    justify-content: space-between;
+}
+
+header.private .painel .txt{
+
+}
+header.private .painel .txt h1 {
+    font-size: 20px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 0.4px;
+    color: #009b3a;
+}
+
+header.private .painel .txt p {
+    margin-top: 3px;
+    font-size: 16px;
+    color: #828282;
+    margin-left: 15px;
+}
+
+header.private .painel .img {
+    margin-top: -7px;
+}
+
+header.private .painel .img .ball {
+    border-radius: 30px;
+    width: 35px;
+    margin-left: 15px;
+    height: 35px;
+    background-color: #009237;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+    font-size: 25px;
+    padding-left: 0.5px;
+    padding-top: 0.7px;
+    font-weight: 300;
+}
+
+header.private .painel .img .ball:hover {
+    background-color: #33a85f;
+    transition: 0.3s;
+}
+
+header.private .painel .img .ball ul {
+    position: absolute;
+    z-index: 999;
+    list-style: none;
+    width: 0px;
+    opacity: 0;
+    margin-top: 10px;
+    margin-left: -200px;
+    padding: 12px 0px 20px 0px;
+    box-shadow: 0 13px 43px 0 rgba(148, 148, 148, 0.5);
+    background-color: white;
+    border-radius: 15px;
+}
+
+header.private .painel .img .ball ul li {
+    display: none;
+    padding: 10px 0px 10px 19px;
+    text-align: left;
+    background-color: white;
+    margin-top: 18px;
+}
+
+header.private .painel .img .ball ul li:hover {
+    background-color: rgba(211, 211, 211, 0.5);
+}
+
+header.private .painel .img .ball ul img {
+    margin-right: 15.5px;
+}
+
+header.private .painel .img .ball ul a {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.02em;
+    color: #707070;
+    opacity: 1;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+header.private .painel .img .ball ul a img {
+    opacity: 1;
+}
+
+header.private .painel .img .ball ul:after {
+    content: "";
+    width: 0;
+    height: 0px;
+    position: absolute;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 15px solid white;
+    top: -10px;
+    left: 82%;
+}
+
+header.private .painel .img .ball:hover ul {
+    opacity: 1;
+    transition: 0.5s;
+    width: 252px;
+    height: auto;
+}
+
+header.private .painel .img .ball:hover ul li {
+    display: list-item;
+}
+
+header.private .painel .img .ball3 {
+    margin: 5px 0px 0px 8px;
+}
+
+header.private .painel .img .ball3 ul.menu {
+    justify-content: space-between;
+    text-decoration: none;
+    list-style: none;
+    cursor: pointer;
+    position: relative;
+    z-index: 9999;
+}
+
+header.private .painel .img .ball3 ul.menu img.brt {
+    margin: -10px 0px 0px 3px;
+    width: 35px;
+
+}
+
+header.private .painel .img .ball3 ul.menu img.br {
+    margin: -12.5px 0px 0px 0px;
+    width: 42px;
+}
+
+header.private .painel .img .ball3 ul.menu li.ta h2 {
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 1.19;
+    color: #009b3a;
+    cursor: pointer;
+}
+
+header.private .painel .img .ball3 ul.menu li.ta h2 img {
+    margin-left: 10px;
+}
+
+header.private .painel .img .ball3 ul.menu ul {
+    height: 0;
+    opacity: 0;
+    position: absolute;
+    z-index: 1;
+    border-radius: 30px;
+    margin-left: -25px;
+    width: 190px;
+}
+
+header.private .painel .img .ball3 ul.menu ul li {
+    text-align: left;
+    padding-top: 50px;
+    margin-left: 25px;
+    list-style: none;
+    display: none;
+}
+
+header.private .painel .img .ball3 ul.menu ul li a {
+    font-size: 16px;
+    font-weight: bold;
+    position: relative;
+    z-index: 999999;
+    line-height: 1.19;
+    color: #707070;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+header.private .painel .img .ball3 ul.menu:hover img.arrow {
+    position: relative;
+    transform: rotate(180deg);
+    transition: 1s;
+    z-index: 9999;
+}
+
+header.private .painel .img .ball3 ul.menu li:hover ul, header.private .painel .img .ball3 .menu li.hover ul {
+    width: 20%;
+    opacity: 1;
+    transition: 0.5s;
+    height: 30px;
+}
+
+header.private .painel .img .ball3 ul.menu li:hover ul li, header.private .painel .img .ball3 .menu li.hover ul li {
+    display: list-item;
+}
+
+header.private .painel .img .ball3 img {
+    width: 41px;
+    border-radius: 30px;
+    margin-left: 1.2px;
+    margin-top: 6px;
+}
+
+header.private .painel .img .ball4 {
+    border-radius: 30px;
+    width: 45px;
+    margin-left: 15px;
+    height: 45px;
+    background-color: #009237;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    margin-top: -4px;
+    padding-left: 1px;
+    padding-top: 6px;
+    font-weight: 500;
+}
+
+header.private .painel .img .ball4 img {
+    width: 16.9px;
+    height: 16.9px;
+    border-radius: 30px;
+    margin-left: -1px;
+    margin-top: 2px;
+}
+
+header.private .painel .img .ball2 {
+    width: 50px;
+    height: 50px;
+    background-color: #009237;
+    margin-left: 20px;
+    margin-top: -8px;
+    border-radius: 30px;
+}
+
+header.private .painel .img .ball2 img {
+    margin-top: -4px;
+    margin-left: -8px;
+}
+
+header.private .painel .img .txt h1 {
+    margin-left: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #009b3a;
+}
+
+header.private .painel .img .txt p {
+    opacity: 0.6;
+    font-size: 12px;
+    font-weight: 500;
+    font-style: italic;
+    letter-spacing: 0.2px;
+    color: #000000;
+    text-align: right;
+}
+
+header.private .painel .img .txt a {
+    text-decoration: none;
+    font-size: 12px;
+    color: #009b3a;
+    font-weight: 500;
+    margin-left: 70px;
+}
+
+.rightL {
+    background-color: white;
+    height: 159px;
+    border-radius: 15px;
+}
+
+.rightL .white {
+    justify-content: space-between;
+    margin-top: 19px;
+}
+
+.rightL .white .w {
+    width: 49%;
+    height: 134px;
+    border-radius: 15px;
+    background-color: white;
+}
+
+.rightL .white .w1 {
+    width: 49%;
+    height: 134px;
+    background-color: white;
+    border-radius: 15px;
+    
+}
+
+.rightL .nit {
+    padding: 0px 24px;
+}
+
+.rightL .nit .gray {
+    background-color: #f2f2f2;
+    width: 102px;
+    height: 92px;
+    margin-top: 15px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.rightL .nit .gray img {
+    margin: auto;
+    margin-top: 15px;
+}
+
+.rightL .nit .gray img.t1 {
+    margin-top: 20px;
+}
+
+.rightL .nit .gray p {
+    margin-top: 5px;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 0.24px;
+    color: #828282;
+}
+
+.rightL .nit .gray2 {
+    background-color: #f2f2f2;
+    width: 102px;
+    height: 92px;
+    margin-top: 15px;
+    text-align: center;
+    border-radius: 10px;
+    margin-left: 30px;
+}
+
+.rightL .nit .gray2 img {
+    margin: auto;
+    margin-top: 15px;
+}
+
+.rightL .nit .gray2 img.t1 {
+    margin-top: 22px;
+}
+
+.rightL .nit .gray2 p {
+    margin-top: 8px;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 0.24px;
+    color: #828282;
+}
+
+.rightL .nit .gray2 p.t2 {
+    margin-top: 5px;
+}
+
+.rightL h1 {
+    margin-top: 21px;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 0.32px;
+    color: #009b3a;
+    margin-left: 24px;
+}
+.ttw2{
+    display: none;
+}
+.opc {
+    margin-top: 27px;
+    width: 143px;
+    height: 159px;
+    border-radius: 15px;
+    background-color: #ffffff;
+    text-align: center;
+    padding-top: 5px;
+}
+.opc h1 {
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 0.32px;
+    color: #828282;
+    margin-left: 0px;
+}
+.opc2 {
+    margin-top: 27px;
+    width: 143px;
+    height: 159px;
+    border-radius: 15px;
+    background-color: #ffffff;
+    text-align: center;
+    padding-top: 5px;
+    margin-left: 30px;
+}
+.opc2 h1 {
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 0.32px;
+    color: #828282;
+    margin-left: 0px;
+}
+.rightL .opc {
+    margin-top: 27px;
+    width: 143px;
+    height: 174px;
+    border-radius: 15px;
+    background-color: #ffffff;
+    text-align: center;
+    padding-top: 5px;
+}
+
+.rightL .opc h1 {
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 0.32px;
+    color: #828282;
+    margin-left: 0px;
+}
+
+.rightL .opc2 {
+    margin-top: 27px;
+    width: 143px;
+    height: 174px;
+    border-radius: 15px;
+    background-color: #ffffff;
+    text-align: center;
+    padding-top: 5px;
+    margin-left: 30px;
+}
+
+.rightL .opc2 h1 {
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 0.32px;
+    color: #828282;
+    margin-left: 0px;
+}
+
+.part2 {
+    margin-left: 20%;
+    
+}
+
+.part2 .w40 {
+    height: 50px;
+}
+
+.part2 .w40 .ret {
+    justify-content: space-between;
+    width: 95%;
+    height: 65px;
+    border-radius: 15px;
+    background-color: white;
+    padding: 22px 38px;
+    margin-bottom: 29px;
+}
+
+.part2 .w40 .ret p {
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 0.32px;
+    color: #828282;
+}
+
+.part2 .w40 .ret h1 {
+    margin-top: -13px;
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 0.32px;
+    color: #828282;
+}
+
+.part2 .w40 .ret1 {
+    justify-content: space-between;
+    width: 95%;
+    height: 65px;
+    border-radius: 15px;
+    background-color: #009b3a;
+    padding: 22px 38px;
+    margin-bottom: 29px;
+}
+
+.part2 .w40 .ret1 p {
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 0.32px;
+    color: white;
+}
+
+.part2 .w40 .ret1 h1 {
+    margin-top: -13px;
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 0.32px;
+    color: #009b3a;
+    mix-blend-mode: multiply;
+}
+
+.part2 .w40 .ret2 {
+    justify-content: space-between;
+    width: 95%;
+    height: auto;
+    border-radius: 15px;
+    background-color: white;
+    padding: 22px 38px;
+    margin-bottom: 29px;
+    overflow: hidden;
+}
+
+.part2 .w40 .ret2 p {
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 0.32px;
+    color: #828282;
+}
+
+.part2 .w40 .ret2 h1 {
+    margin-top: -13px;
+    cursor: pointer;
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 0.32px;
+    color: #828282;
+}
+header.private .painel .img .txt p.en{
+    text-align: right;
+}
+header.private .painel .img .txt a.en{
+    margin-left:60px;
+}
+.part2 .w40 .res {
+    margin-top: 53px;
+    justify-content: space-between;
+}
+
+.part2 .w40 .res .img {
+    text-align: right;
+}
+
+.part2 .w40 .res .img img {
+    margin-top: -50px;
+}
+
+.part2 .w40 .res p.c1 {
+    color: #828282;
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: 0.28px;
+    margin-bottom: 15px;
+}
+
+.part2 .w40 .res p.c2 {
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: 0.28px;
+    color: #eb5757;
+    margin-bottom: 15px;
+}
+
+.part2 .w40 .res p.c3 {
+
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 0.28px;
+    color: #009b3a;
+}
+
+.part2 #tte {
+    justify-content: space-between;
+    width: 100%;
+}
+
+.rela {
+    margin-left: 20%;
+    margin-top: 375px;    
+    width: 75%;
+    background-color: white;
+    border-radius: 15px;
+    padding: 40px 39px;
+}
+
+.rela .type {
+    justify-content: space-between;
+}
+
+.rela .type h1 {
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 0.28px;
+    color: #828282;
+}
+
+.rela .type p {
+    font-size: 14px;
+    letter-spacing: 0.28px;
+    color: #828282;
+}
+
+.rela .type p.point {
+    font-size: 26px;
+    margin-top: -15px;
+}
+
+.rela hr {
+    margin-top: 8px;
+    border: 0.5px solid #e0e0e0;
+    width: 100%;
+    margin-bottom: 18px;
+}
+
+.rela hr.h2 {
+    margin-top: 18px;
+}
+
+.menuA {
+    justify-content: space-between;
+    margin: auto;
+    width: 90%;
+    height: 166px;
+    background: white;
+    display: none;
+}
+
+.menuA .img {
+    text-align: center;
+    margin: auto;
+    width: 98px;
+    height: 98px;
+    border-radius: 15px;
+    background: #F2F2F2;
+    padding-top: 10px;
+}
+
+.menuA .img .peo {
+    margin-top: 8px;
+}
+
+.menuA .img p {
+    margin-top: 10.9px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.02em;
+    color: #828282;
+}
+
+.cadPrivate {
+    width: 75%;
+    height: auto;
+    background-color: white;
+    margin-left: 20%;
+    border-radius: 15px;
+    padding: 48px 62px;
+}
+
+.cadPrivate .addF .is {
+    width: 350px;
+}
+
+.cadPrivate .addF .custom-select select {
+    display: none;
+
+}
+
+.cadPrivate .addF .custom-select3 select {
+    display: none;
+}
+
+.cadPrivate .addF .custom-select2 select {
+    display: none;
+}
+
+.cadPrivate .addF .select-selected {
+    background-color: #828282;
+    margin: 20px 0px 0px 30px;
+    text-align: center;
+    width: 158px;
+    height: 32px;
+    background-color: #009B3A;
+}
+
+.cadPrivate .addF .select-selected:after {
+    content: "";
+    position: relative;
+    top: 5px;
+    float: right;
+    border: 6px solid transparent;
+    border-color: white transparent transparent transparent;
+}
+
+.cadPrivate .addF .select-selected.select-arrow-active:after {
+    border-color: transparent transparent #fff transparent;
+    top: 0px;
+}
+
+.cadPrivate .addF .select-items div, .cadPrivate .addF .select-selected {
+    color: #ffffff;
+    padding: 5px 16px;
+    border: 1px solid transparent;
+    border-radius: 15px;
+    border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
+    cursor: pointer;
+    user-select: none;
+}
+
+.cadPrivate .addF .select-items {
+    position: absolute;
+    width: 158px;
+    margin-top: 5px;
+    background-color: #009B3A;
+    margin-left: 30px;
+    right: 50;
+    z-index: 99999999;
+    border-radius: 15px;
+}
+
+.cadPrivate .addF .select-hide {
+    display: none;
+}
+
+.cadPrivate .addF .select-items div:hover, .cadPrivate .addF .same-as-selected {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.cadPrivate .begin {
+    justify-content: space-between;
+}
+
+.cadPrivate .begin form {
+    margin-top: -20px;
+}
+
+.cadPrivate .begin form input[type=text] {
+    width: 206px;
+}
+
+.cadPrivate .begin form input[type=submit] {
+    border: none;
+    background-color: white;
+    background-image: url("../img/search.svg");
+    background-repeat: no-repeat;
+    margin-right: 70px;
+    width: 24px;
+    height: 24px;
+}
+
+.cadPrivate h1 {
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 37px;
+    letter-spacing: 0.02em;
+    color: #009B3A;
+}
+
+.cadPrivate h2 {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: 0.02em;
+    color: #BECC31;
+    margin-top: 24px;
+}
+.cadPrivate form input.pgm2{
+width: 100%;
+margin-left: 30px;
+margin-top: 40px;
+display: none;
+}
+
+.cadPrivate form input,
+.select_wrap_select {
+    margin-top: 29px;
+    width: 46%;
+    text-decoration: none;
+    margin-right: 30px;
+    border: none;
+    outline: none;
+    border-bottom: 0.2px solid #009B3A;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    padding-bottom: 10px;
+}
+
+.cadPrivate form .menor {
+    width: 21.7%;
+}
+
+.cadPrivate form h2 {
+    margin-top: 32px;
+}
+
+.cadPrivate form h1 {
+    margin-top: 38px;
+}
+
+.cadPrivate form .button-tamanho {
+    margin-top: 20px;
+    margin-left: 30px;
+    width: 158px;
+    height: 32px;
+    text-align: center;
+    background-color: #009B3A;
+    color: white;
+    border-radius: 15px;
+    padding: 7px;
+}
+
+.cadPrivate form img {
+    width: 23.47px;
+    height: 24.92px;
+    margin-top: 36px;
+    margin-left: 51px;
+}
+
+.cadPrivate form img.cancel {
+    width: 34px;
+    height: 34px;
+    margin-top: 32px;
+    margin-left: 7.6px;
+}
+
+.cadPrivate form img.pencil {
+    width: 21.3px;
+    height: 21.3px;
+    margin-left: 7.6px;
+}
+
+.cadPrivate .payment {
+    flex-direction: row;
+    /*Tudo em Linha*/
+    justify-content: flex-start;
+    margin-top: 40px;
+}
+.cadPrivate .payment2{
+    flex-direction: row;
+    /*Tudo em Linha*/
+    justify-content: center;
+
+}
+.cadPrivate .payment .custom-select select {
+    display: block;
+    margin-left: 60px;
+    margin-top: 30px;
+
+    color:#828282;;
+    outline: none;
+    font-weight: 700;
+    background-color: #e0e0e0;
+  border: 1px solid #e0e0e0;
+  border-radius:16px;
+  padding: 10px;
+ width: 220px;
+}
+
+.cadPrivate .payment .select-selected {
+    background-color: #e0e0e0;
+    margin: 30px 0px 0px 74px;
+    text-align: center;
+    border-radius: 15px;
+    width: 233px;
+    height: 32px;
+}
+
+.cadPrivate .payment .select-selected:after {
+    content: "";
+    position: relative;
+    top: 5px;
+    float: right;
+    border: 6px solid transparent;
+    border-color: #828282 transparent transparent transparent;
+}
+
+.cadPrivate .payment .select-selected.select-arrow-active:after {
+    border-color: transparent transparent #828282 transparent;
+    top: 0px;
+}
+
+.cadPrivate .payment .select-items div, .cadPrivate .payment .select-selected {
+    color: #828282;
+    padding: 5px 16px;
+    border: 1px solid transparent;
+    border-radius: 15px;
+    border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
+    cursor: pointer;
+    user-select: none;
+}
+
+.cadPrivate .payment .select-items {
+    position: absolute;
+    width: 233px;
+    margin-top: 5px;
+    background-color: #e0e0e0;
+    margin-left: 75px;
+    right: 50;
+    z-index: 9;
+    border-radius: 15px;
+}
+
+.cadPrivate .payment .select-hide {
+    display: none;
+}
+
+.cadPrivate .payment .select-items div:hover, .cadPrivate .payment .same-as-selected {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.cadPrivate .payment .payMeth {
+    display: none;
+    position: relative;
+    background-color: #828282;
+    width: 233px;
+    padding: 0 20px;
+    padding-bottom: 30px;
+    margin-top: 70px;
+    margin-left: -232px;
+    border-radius: 15px;
+}
+
+.cadPrivate .payment input[type=checkbox] {
+    text-align: left;
+    width: auto;
+}
+
+.cadPrivate .payment p {
+    margin-top: 25px;
+    margin-left: -10px;
+    color: white;
+}
+
+.cadPrivate .payment h1.check {
+    margin-top: 30px;
+}
+
+.cadPrivate .pgm input.pgm {
+    width: 30%;
+}
+
+.cadPrivate .pgm input.adp {
+
+    font-weight: 700;
+}
+
+
+.cadPrivate h3 {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: 0.02em;
+    color: #009B3A;
+    text-transform: uppercase;
+    margin-top: 48px;
+    margin-left: 10px;
+}
+
+.cadPrivate h4 {
+    font-size: 36px;
+    line-height: 42px;
+    letter-spacing: 0.2em;
+    margin-left: 10px;
+    color: #009B3A;
+    margin-top: 12px;
+}
+
+.cadPrivate .finalForm {
+    margin-top: 75px;
+    justify-content: center;
+}
+
+.cadPrivate .finalForm .view {
+    background: #BECC31;
+    border-radius: 15px;
+    width: 138.67px;
+    height: 32px;
+    cursor: pointer;
+    color: white;
+    text-align: center;
+    padding: 9px;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+}
+
+.cadPrivate .finalForm button {
+    border-radius: 15px;
+    width: 138.67px;
+    height: 32px;
+    background-color: #009B3A;
+    color: white;
+    text-align: center;
+    padding: 9px;
+    cursor: pointer;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    margin: 0 36px;
+    outline: none;
+    border: none;
+}
+
+.cadPrivate .finalForm input[type=reset].clear {
+    background: #FF0000;
+    border-radius: 15px;
+    margin-top: 0px;
+    width: 138.67px;
+    height: 32px;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+    padding: 9px;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    margin-left: 10px;
+    outline: none;
+    border-bottom: none;
+}
+
+footer .flex {
+    justify-content: space-between;
+    padding: 0px 100px;
+    padding-bottom: 42px;
+    background-color: #f2f2f2;
+}
+
+footer .flex p {
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    color: #828282;
+}
+
+footer .flex p.bd {
+    color: #BDBDBD;
+}
+
+@media screen and (max-width: 1856px) {
+    header.private {
+        padding: 60px 20px;
+    }
+
+    .cadPrivate form .addF input {
+        width: 30%;
+    }
+}
+@media screen and (max-width: 1756px) {
+    .part2 .w40 .ret1 {
+        width: 95%;
+    }
+
+.part2 .w40 .ret {
+    width: 95%;
+}
+.part2 .w40 .ret2 {
+    width: 95%;
+    }
+    .rightL .white .w{
+        width: 49%;
+    }
+    .rightL .white .w1 {
+        width: 49%;
+        }
+}
+@media screen and (height: 1024px) {
+    header.login {
+        height: 100vh;
+    }
+}
+
+@media screen and (max-width: 1480px) {
+    .hlw{
+    width:300px; 
+    margin-top:-50px; 
+    margin-left:-50px;
+    font-size: 10px;
+    padding:0px;
+}
+    header.private {
+        padding: 30px 100px;
+    }
+
+    header.private .green {
+        transform: scale(0.8);
+        margin-top: -90px;
+    }
+    header.private .t2 {
+        margin-left: -90px;
+    }
+
+    header.private .painel {
+        transform: scale(1);
+        margin-left: 15%;
+    }
+
+    .cadPrivate {
+        margin-left: 23%;
+        transform: scale(0.8);
+        margin-top: -120px;
+    }
+
+    .cadPrivate form input {
+        width: 45%;
+    }
+
+    .cadPrivate form .addF .button-tamanho {
+        transform: scale(0.7);
+        margin-top: 20px;
+        margin-left: -10px;
+    }
+
+    .cadPrivate form .addF img {
+        transform: scale(0.8);
+        margin-left: 2px;
+    }
+}
+
+@media screen and (max-width: 1600px) {
+    header.login .in {
+        padding: 34px 100px;
+    }
+
+    header.login .form, header.login .form2 {
+        transform: scale(0.8);
+    }
+}
+
+@media screen and (max-width: 1270px) {
+    .w35{
+        width: 100%;
+    }
+    .part2 .w40{
+        height: auto;
+    }
+    header.private .green{
+        display:none;
+    }
+    header.private .greenBar{
+        display: block;
+    }
+    .part2{
+        margin-left: 0px;
+        justify-content: center;
+    }
+
+    .rela{
+        
+        margin:auto;
+        margin-top:400px;
+        display: none;
+    }
+    .opc h1 {
+        font-weight: bold;
+font-size: 12px;
+line-height: 14px;
+letter-spacing: 0.02em;
+margin-top:18.94px;
+    }
+    .opc2 h1 {
+                font-weight: bold;
+font-size: 12px;
+line-height: 14px;
+letter-spacing: 0.02em;
+margin-top:18.94px;
+            }
+    header.private .painel{
+        margin-left: 0px;
+    }
+    .part2 .w40{
+        width: 100%;
+        position: relative;
+        justify-content: center;
+        order:2;
+        
+    }
+    .part2 .w40 .ret1{
+        margin: auto;
+        margin-bottom:29px;
+    }
+    .part2 .w40 .ret2{
+        
+        margin: auto;
+        margin-bottom:29px;
+    }
+    .part2 .w40 .ret{
+        display: none;
+        margin: auto;
+        margin-bottom:29px;
+    }
+    .rightL{
+        width: 95%;
+        order:1;
+        height: auto;
+        margin-bottom: 24px;
+        margin-top: -35px;
+    }
+    .rightL .nit{
+        justify-content: space-between;
+    }
+    .rightL .nit .gray{
+        width: 98px;
+        height: 98px;
+    }
+    .rightL .nit .gray2{
+        width: 98px;
+        height: 98px;
+        margin-left:0px;
+    }
+    .rightL .ttw,.rightL .w, .rightL .w1{
+        display:none;
+
+    }
+    .ttw2{
+        width: 95%;
+        margin:auto;
+        justify-content: space-between;
+        display:flex;
+        
+    }
+         .ttw2 .opc img{
+            margin-top: 10px;
+            width: 70px;
+
+         }
+        .ttw2 .opc{
+        width: 112.85px;
+        height: 125.48px;
+        height:auto;
+        }
+        .ttw2 .opc2 img{
+            margin-top: 10px;
+            width: 70px;
+
+         }
+     .ttw2 .opc2{
+
+        margin-left: 0px;
+        width: 112.85px;
+        height: 125.48px;
+        height:auto;
+     }
+    .part2 .w40 .res .txt{
+        width: 60%;
+    }
+    .part2 .w40 .res .img{
+        width: 40%;
+    }
+    .jtp{
+        width: 100%;
+        margin-left:-30px;
+    }
+    .cadPrivate .payment h1.check{
+        text-align: left;
+    }
+    .cadPrivate .payment2{
+        justify-content: flex-start;
+    }
+    header.private {
+        padding: 60px 20px;
+    }
+
+    .cadPrivate {
+        margin-left: 19%;
+        transform: scale(0.8);
+        margin-top: -200px;
+    }
+
+    .cadPrivate form .addF .is {
+        width: 100%;
+    }
+
+    .cadPrivate form .addF .select-selected {
+        margin: 20px 0px 0px 0px;
+        text-align: center;
+        width: 158px;
+        height: 32px;
+        background-color: #009B3A;
+    }
+
+    .cadPrivate form .payment .custom-select {
+        width: 100%;
+    }
+
+    .cadPrivate form .payment .custom-select .select-selected {
+        background-color: #828282;
+        margin: 30px 0px 0px 0px;
+        text-align: center;
+        border-radius: 15px;
+        width: 233px;
+        height: 32px;
+    }
+
+    .cadPrivate form .payment .custom-select .select-items {
+        position: absolute;
+        width: 233px;
+        margin-top: 5px;
+        background-color: #828282;
+        margin: 5px auto;
+        z-index: 9;
+        border-radius: 15px;
+    }
+
+    .cadPrivate form input {
+        width: 100%;
+    }
+
+    .cadPrivate form .menor {
+        width: 100%;
+    }
+
+    .cadPrivate form .addF .flex {
+        justify-content: flex-start;
+    }
+
+    .cadPrivate form .addF .flex input[type=text] {
+        width: 100%;
+    }
+
+    .cadPrivate form .pgm input.pgm {
+        width: 100%;
+    }
+
+    header.login {
+        height: auto;
+    }
+
+    header.login .in h1 {
+        font-size: 10px;
+        margin-top: 7px;
+    }
+
+    header.login .form, header.login .form2 {
+        transform: scale(0.7);
+    }
+}
+
+@media screen and (min-height: 1024px) {
+    header.login {
+        height: 100vh;
+    }
+}
+
+@media screen and (max-width: 910px) {
+    .bgreen {
+        display: block;
+    }
+    .btn-green_default{
+        margin-top:15px;
+    }
+
+
+    .sk-flow{
+    width: calc(40px * 1.7);
+    height: calc(40px * 1.7);
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    z-index: 9999999999999999999999999999999999999;
+    top: 46%;
+    right: 44%;
+        }
+    header.private {
+        padding: 0px;
+    }
+
+    header.private .green {
+        display: none;
+    }
+    header.private .painel .txt p:last-child{
+        margin-left:0px;
+        padding-bottom: 35px;
+    }
+    header.private .painel {
+        width: 100%;
+        margin-left: 0px;
+        border: none;
+        transform: scale(1);
+        justify-content: space-around;
+    }
+
+    header.private .painel .txt {
+        width: 150px;
+    }
+
+    header.private .painel .txt h1 {
+        font-size: 19px;
+    }
+
+    header.private .painel .txt p.tp {
+        width: 100%;
+        margin-left: 0px;
+        margin-top: 10px;
+        font-size: 15px;
+    }
+
+    header.private .painel .img {
+        margin-top: 5px;
+        text-align: right;
+        transform: scale(0.9);
+    }
+
+    header.private .painel .img .ball {
+        display: none;
+    }
+
+    header.private .painel .img .txt {
+        display: none;
+    }
+
+    .menuA {
+        display: flex;
+        width: 95%;
+        border-radius: 15px;
+    }
+
+    .menuA .img {
+        cursor: pointer;
+    }
+
+    .cadPrivate {
+        margin: auto;
+        transform: scale(1);
+        width: 100%;
+        margin-top: 0px;
+        padding: 50px 20px;
+    }
+
+    .cadPrivate h1 {
+        font-size: 30px;
+    }
+
+    .cadPrivate h2 {
+        font-size: 20px;
+    }
+
+    .cadPrivate form h3 {
+        font-size: 25px;
+    }
+
+    .cadPrivate form h4 {
+        font-size: 28px;
+    }
+
+    .cadPrivate form .finalForm {
+        margin-left: 0px;
+    }
+
+    .cadPrivate form .finalForm .view {
+        width: 80%;
+        height: 25px;
+        padding: 5px;
+    }
+
+    .cadPrivate form .finalForm button {
+        width: 80%;
+        margin-top: 20px;
+        height: 25px;
+        padding: 5px;
+    }
+
+    .cadPrivate form .finalForm .clear {
+        width: 80%;
+        height: 25px;
+        margin-left: 10px;
+        padding: 5px;
+    }
+}
+
+@media screen and (max-width: 834px) {
+    ::-webkit-scrollbar {
+    width: 0px;
+}   
+ canvas#chart-area{
+    overflow: hidden;
+ }
+    .hlw{
+    width:200px; 
+    margin-top:-20px;
+    text-align: right;
+    overflow: hidden;
+    margin-left: 0px;
+
+}
+.hlw span{
+        margin-left: -128px;
+    margin-top: 30px;
+}
+.dlw{
+    width: 130px;
+    margin-left:-10px;
+    margin-top:15px;
+}
+.dlw span{
+    font-size:24px;
+     margin-top:26px;
+
+      position:absolute;
+     font-size: 25px;
+     margin-top:13px;
+     margin-left:-17px;
+      font-weight: 900;
+    line-height: 38px;
+    letter-spacing: 0.02em;
+    color:#BDBDBD;
+}
+.dlw2{
+    width: 130px;
+    margin-left:-10px;
+    margin-top:15px;
+}
+.dlw2 span{
+    font-size:24px;
+     margin-top:26px;
+
+      position:absolute;
+     font-size: 25px;
+     margin-top:13px;
+     margin-left:-17px;
+      font-weight: 900;
+    line-height: 38px;
+    letter-spacing: 0.02em;
+    color:#EB5757;
+}
+.dlw3{
+    width: 130px;
+    margin-left:-10px;
+    margin-top:15px;
+}
+.dlw3 span{
+    font-size:24px;
+     margin-top:26px;
+
+      position:absolute;
+     font-size: 25px;
+     margin-top:13px;
+     margin-left:-17px;
+      font-weight: 900;
+    line-height: 38px;
+    letter-spacing: 0.02em;
+    color:#66be87;
+}
+header.login .form form label.ott{
+    margin-left: -47%;
+}
+
+    .overlay .cadPessoa {
+        width: 100%;
+        padding: 66px 20px 47px 20px;
+        top:0;
+        min-height: 100vh;
+        border-radius: 0px;
+    }
+    .overlay .closebtn{
+        top:54px;
+    }
+    .overlay{
+        border-radius: 0px;
+    }
+
+    .overlay .cadPessoa input {
+        width: 100%;
+    }
+
+    .overlay .cadPessoa textarea {
+        width: 100%;
+        min-width: 100%;
+        max-width: 100%;
+    }
+
+    header.login .in {
+        display: block;
+        padding: 20px;
+    }
+
+    header.login .in h1 {
+        width: 100%;
+        text-align: center;
+        margin-left: 0px;
+    }
+
+    header.login .in .ta {
+        text-align: center;
+        margin: auto;
+        margin-top: 30px;
+    }
+
+    header.login .in .ta img#br {
+        width: 30px;
+        height: 30px;
+        border-radius: 30px;
+    }
+
+    header.login .w10 {
+        display: none;
+    }
+
+    header.login .form, header.login .form2 {
+        transform: scale(1);
+        width: 90%;
+        margin-top: 13vh;
+        height: auto;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    header.login .form .logo img, header.login .form2 .logo img {
+        width: 150px;
+    }
+
+    header.login .form h1, header.login .form2 h1 {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    header.login .form form input[type=text], header.login .form form input[type=password], header.login .form form input[type=email], header.login .form form input[type=tel], header.login .form2 form input[type=email], header.login .form2 form input[type=password], header.login .form2 form input[type=email], header.login .form2 form input[type=tel] {
+        width: 90%;
+    }
+
+    header.login .form form label, header.login .form2 form label {
+        margin-left: -45%;
+    }
+
+    header.login .form form label.ot, header.login .form2 form label.ot {
+        margin-left: -45%;
+    }
+
+    header.login .form form label.t1, header.login .form2 form label.t1 {
+        margin-left: -51%;
+    }
+}
+@media screen and(max-width: 1481px){
+
+}
+/*# sourceMappingURL=style.css.map */
